@@ -1,0 +1,130 @@
+/* .box {
+    height: 400px;
+    width: 300px;
+    background-image: url(https://cdn.lovin.co/wp-content/uploads/sites/33/2023/08/02083223/Karachi-at-night-Shutterstock_1710bee7f8c_large.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    transition: all ease 3s;
+    border-radius: 10px;
+}
+div h2 {
+    color: aliceblue;
+    font-size: xx-large;
+text-align: center;
+}
+
+.box:hover{
+     transform: translatex(315px);
+   
+}
+.box:hover ~ .box2 {
+    z-index: -3;
+    
+}
+.box:hover ~ .box3 {
+    transform: translatex(-315px);
+    top: 18px;
+}
+.box2 {
+    height: 400px;
+    width: 300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAc8nahlEyN-osxT73oPcYyvv-n7046YULMQ&s);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.box3 {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 40px;
+    left: 41%;
+    z-index: -2;
+    transition: all ease 3s;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Faisal_Mosque%2C_Islamabad_III.jpg/640px-Faisal_Mosque%2C_Islamabad_III.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}  */
+
+
+
+
+
+
+.box1 {
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    margin: auto;
+    transition: all ease 1.5s;
+    border-radius: 10px;
+    margin-top: 100px;
+    transform-origin: right bottom;
+}
+
+.box1:hover {
+    transform: rotate(35deg);
+}
+.box2:hover {
+    transform: rotate(-35deg);
+}
+
+.box2 {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(89, 255, 0);
+    
+    transition: all ease 1.5s;
+    border-radius: 10px;
+    margin-top: 100px;
+    transform-origin: left bottom;
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+
+.box1:hover ~ .box2 {
+    transform: rotate(-35deg);
+}
+
+
+
+
+/* .box1 {
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+    transition: all ease 3s;
+    z-index: 1;
+}
+.box2 {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(255, 183, 0);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    left: 39%;
+    transition: all ease 3s;
+    z-index: -1;
+}
+.box1:hover  {
+    transform: rotatey(180deg);
+    
+}
+.box2:hover{
+    transform: rotatey(180deg);
+ 
+} 

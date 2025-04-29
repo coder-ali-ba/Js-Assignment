@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(192, 198, 204);
+}
+#head1{
+    text-align: center;
+    margin-top: 50px;
+}
+#head2 {
+    margin-top: 20%;
+    text-align: center;
+}
+#main {
+    margin-top: 50px;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+#main1 {
+    width: 550px;
+    height: 600px;
+    background-color: white;
+    background-image:url(https://media.gettyimages.com/id/184281306/photo/home-solution-wifi-devices-network.jpg?s=612x612&w=gi&k=20&c=WC4KeokOo11Qj48OlKoE0KePnXdLG93N6BpFoR_1-Ms=) ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media (max-width:600px){
+    #main1  {
+        height: 300px;
+    }
+    #main2  {
+        height: 400px;
+        border: 3px solid black;
+    }
+
+}
+
+form {
+    margin-top: 6vh;
+    padding-left: 20px;
+}
+#main2 {
+    width: 550px;
+    height: 600px;
+    background-color: white;
+}
+.para {
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+#email {
+    width: 95%;
+    line-height: 37px;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 82, 82);
+    font-size: 1.3rem;
+}
+#password {
+    width: 95%;
+    line-height: 37px;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 82, 82);
+    font-size: 1.3rem;
+}
+#submit {
+    margin-top: 30px;
+    width: 95%;
+    line-height: 37px;   
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    background: linear-gradient(to right,rgb(2, 2, 78), blue, rgb(108, 108, 248));
+}
+
+
+
+
+#mainSign { 
+    margin-top: 50px;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+#main3 {
+    width: 550px;
+    height: 600px;
+    background-color: white;
+    background-image:url(https://img.lovepik.com/free-png/20210928/lovepik-programmer-png-image_401643778_wh1200.png) ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#main4 {
+    width: 550px;
+    height: 600px;
+    background-color: white;
+}
+@media (max-width:600px){
+    #main3  {
+        height: 400px;
+        border: 3px solid blue;
+    }
+}
+#username1 { 
+    width: 95%;
+    line-height: 37px;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 82, 82);
+    font-size: 1.3rem;  
+}
+#email2 {
+    width: 95%;
+    line-height: 37px;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 82, 82);
+    font-size: 1.3rem;
+}
+#password2 {
+    width: 95%;
+    line-height: 37px;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 82, 82);
+    font-size: 1.3rem;
+}
+#submit2 {
+    margin-top: 30px;
+    width: 95%;
+    line-height: 37px;   
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    background: linear-gradient(to right,rgb(2, 2, 78), blue, rgb(108, 108, 248));
+}
+#head3 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.signup {
+    display: none;
+}

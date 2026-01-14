@@ -1,0 +1,80 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  height: 100%;
+  padding-top:50px;
+  padding-bottom:50px;
+ background: linear-gradient(to right, rgb(189, 224, 241), rgb(87, 87, 245));
+  
+}
+#div1 {
+  height: 480px;
+  width: 300px;
+  /* border: 3px solid blue; */
+  border-radius: 16px;
+  background-color: white;
+}
+#div1 img {
+  height: 50%;
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+ 
+}
+#div1 button {
+  margin-left: 10px;
+ 
+  height: 30px;
+
+border-style: none;
+color: white;
+border-radius: 10px;
+}
+
+
+#div1 h3 {
+  margin-left: 10px;
+}
+#div1 p {
+  margin-left: 10px;
+}
+#div1 .phto {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  
+}
+#name p {
+  position: relative;
+  bottom: 60px;
+  left: 55px;
+}
+#butt1 {
+  font-size: larger;
+  width: 50%;
+ background-color: rgb(106, 106, 243);
+}
+#butt1:hover {
+  background-color: rgb(140, 140, 241) ;
+}
+#butt2 {
+  font-size: larger;
+  width: 20%;
+ background-color: rgb(250, 205, 122);
+}
+#butt2:hover {
+  background-color: rgb(242, 225, 195) ;
+}
+#butt3 {
+  font-size: larger;
+  width: 50%;
+  background-color: rgb(245, 107, 130);
+}
+#butt3:hover {
+  background-color:rgb(240, 149, 164) ;
+}
